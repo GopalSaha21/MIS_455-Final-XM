@@ -83,7 +83,7 @@ footer {
 }
 
 .search-section button:hover {
-    background: rgb(255, 204, 102); /* Yellow-Orange */
+    background: rgb(255, 204, 102); 
     transform: scale(1.05);
 }
 
