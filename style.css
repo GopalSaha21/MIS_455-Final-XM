@@ -34,3 +34,14 @@ header h1 {
     font-weight: bold;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
+
+footer {
+    background-color: rgb(21, 32, 60); /* Deep Blue */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    margin-top: auto;
+    animation: fadeInUp 1s ease-in-out;
+}
