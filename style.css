@@ -81,3 +81,25 @@ footer {
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
+.search-section button:hover {
+    background: rgb(255, 204, 102); /* Yellow-Orange */
+    transform: scale(1.05);
+}
+
+.results-section {
+    margin: 2rem 0;
+}
+
+.result {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15), 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0;
+    animation: fadeInUp 1.2s ease-in-out forwards;
+}
