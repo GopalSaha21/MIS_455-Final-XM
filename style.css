@@ -45,3 +45,21 @@ footer {
     margin-top: auto;
     animation: fadeInUp 1s ease-in-out;
 }
+
+.search-section {
+    margin: 2rem 0;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.search-section input {
+    width: 70%;
+    max-width: 600px;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border: 2px solid rgb(255, 69, 0); 
+    border-radius: 25px;
+    outline: none;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
