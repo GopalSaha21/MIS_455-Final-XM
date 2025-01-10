@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, rgb(21, 32, 60), rgb(255, 204, 102)); /* Deep Blue and Yellow-Orange */
-    color: rgb(21, 32, 60); /* Deep Blue for text */
+    background: linear-gradient(to right, rgb(21, 32, 60), rgb(255, 204, 102)); 
+    color: rgb(21, 32, 60); 
     min-height: 100vh;
     display: flex;
     flex-direction: column;
